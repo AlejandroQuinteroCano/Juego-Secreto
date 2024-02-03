@@ -3,7 +3,7 @@
     let numeroSecreto = 6;
     let numeroUsuario = 0;
     let intentos =1;
-    let maximosIntentos = 2;
+    let maximosIntentos = 8;
 //let palabraVeces = 'vez';
     // != es diferente igual 
     while (numeroUsuario  != numeroSecreto){
@@ -18,7 +18,7 @@
                         // Otra forma de mostrar mensajes con la variable vez
                         //alert(`Acertaste, el numero es :${numeroUsuario}.
              //Lo realizaste en ${intentos} ${palabraVeces}`);
-            alert(`Acertaste, el numero es :${numeroUsuario}.
+            alert(`Felicitaciones ! Acertaste, el numero es :${numeroUsuario}.
             Lo realizaste en ${intentos} ${intentos ==1 ? 'vez' : 'veces' } `);
                         } else {
                         // La condicion no se cumplio
